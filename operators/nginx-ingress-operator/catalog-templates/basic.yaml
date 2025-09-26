@@ -1,0 +1,63 @@
+---
+entries:
+- defaultChannel: v3
+  icon:
+    base64data: PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2My4zNiA3My40NCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwMDk2Mzk7fS5jbHMtMntmaWxsOiNmZmY7fS5jbHMtM3tmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OR0lOWC1oZXgtc291cmNlLVJHQi0wMjwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNLjUwMjcyLDU0LjcyMWEzLjYzNywzLjYzNywwLDAsMCwxLjM2NjQxLDEuMzU1OTNMMjkuODIxOTIsNzIuMjE1NDlsLjAwMDg3LS4wMDA4N2EzLjY2NzkzLDMuNjY3OTMsMCwwLDAsMy43MTUyOSwwTDYxLjQ5MTc1LDU2LjA3NjA2YTMuNjY1NjgsMy42NjU2OCwwLDAsMCwxLjg1Njc3LTMuMjE2MTlWMjAuNTgyNzVsLS4wMDA4Ny0uMDAwODdBMy42NjY4NSwzLjY2Njg1LDAsMCwwLDYxLjQ5LDE3LjM2NDgxTDMzLjUzNjM0LDEuMjI2MjVWMS4yMjUzOGEzLjY2MzEzLDMuNjYzMTMsMCwwLDAtMy43MTI2OCwwdi4wMDA4N0wxLjg3MDg3LDE3LjM2NDgxQTMuNjY1MywzLjY2NTMsMCwwLDAsLjAxMjM1LDIwLjU4MTg4bC0uMDAwODcuMDAwODdWNTIuODU5ODdBMy42NDQyNiwzLjY0NDI2LDAsMCwwLC41MDE4NSw1NC43MjEiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yMi43MzAxNSw0OS4wMDhhMy41OTQ4OCwzLjU5NDg4LDAsMCwxLTcuMTg5NzYsMGwuMDAwODguMDAwODguMDAzNDktMjQuNjc3MjdjMC0xLjkxMTc0LDEuNjg5MjQtMy40OTI3OSw0LjA4MTc1LTMuNDkyNzlhNi4zOTI4Miw2LjM5MjgyLDAsMCwxLDQuOTAwMjEsMi4xOTFMMjUuNjEzLDI0LjMyOTg5LDQwLjYzMTI0LDQyLjMwMjUzVjI0LjQzMkg0MC42Mjk1YTMuNTk0ODgsMy41OTQ4OCwwLDAsMSw3LjE4OTc1LDBoLS4wMDA4N2wtLjAwMzQ5LDI0LjY3NTUyYzAsMS45MTE3NS0xLjY5MDExLDMuNDkyNzktNC4wODE3NSwzLjQ5Mjc5YTYuMzg4NTcsNi4zODg1NywwLDAsMS00LjkwMDIxLTIuMTkxTDIyLjcyODQsMzEuMTM2NTlWNDkuMDA4OVoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik01OS45NzQ3OCw2Ni4wMzQxaC40NTkzNFY2NS4wMTFoLjM2MzM1YTEuMDM2NzQsMS4wMzY3NCwwLDAsMSwuNTEwMzcuMDg1MjIuNjM5MTcuNjM5MTcsMCwwLDEsLjI0MjU1LjU5NTEzdi4yMDk3NmwuMDEwMjkuMDc4MmEuMTU3ODEuMTU3ODEsMCwwLDEsLjAwNy4wMzI3OGMuMDAyMzQuMDEyNjQuMDAzMjguMDE2MzguMDEwMy4wMjJoLjQyNTYzbC0uMDE1NDYtLjAyOWEuMjk4NjMuMjk4NjMsMCwwLDEtLjAyMDYtLjEzM2MtLjAwNjA5LS4wNzM1MS0uMDA2MDktLjEzNjI1LS4wMDYwOS0uMTk0MzF2LS4xOTM4NWEuNzQxOTQuNzQxOTQsMCwwLDAtLjE0MjM0LS40MDU0OS42NjEyOS42NjEyOSwwLDAsMC0uNDUzMjUtLjI1NDcyLDEuMTE4ODQsMS4xMTg4NCwwLDAsMCwuMzc3ODctLjEyMjY4LjU2NjczLjU2NjczLDAsMCwwLC4yNTM3OC0uNTE1MDUuNjQwMDguNjQwMDgsMCwwLDAtLjQwMTc0LS42NjA2OCwxLjk5OTA2LDEuOTk5MDYsMCwwLDAtLjcxMjE5LS4wOTMxOGgtLjkwODg0Wm0xLjMwNjM3LTEuNDAyODJhMS4xODgyLDEuMTg4MiwwLDAsMS0uNDM2ODYuMDU4MDZoLS40MTAxN1Y2My43NDIxaC4zOTE0NGExLjE1NTUsMS4xNTU1LDAsMCwxLC41NTIuMTAxNjEuMzk0MTMuMzk0MTMsMCwwLDEsLjE3Mjc4LjM3OTc0LjQwMDg3LjQwMDg3LDAsMCwxLS4yNjkyNC40MDc4M20xLjMzNC0xLjU2MzlhMi4zMDc5MiwyLjMwNzkyLDAsMCwwLTEuNjg3LS42ODk3MSwyLjM3MywyLjM3MywwLDAsMCwwLDQuNzQ2LDIuMzc3MjQsMi4zNzcyNCwwLDAsMCwxLjY4Ny00LjA1NjNtLS4yNDExNC4yMzU1MmExLjk0MzU5LDEuOTQzNTksMCwwLDEsLjU5NTU5LDEuNDQzNTYsMi4wMzkyMiwyLjAzOTIyLDAsMCwxLTMuNDg1NTIsMS40NTA1OSwyLjAxMzExLDIuMDEzMTEsMCwwLDEtLjU5Mjc5LTEuNDUwNTlBMi4wNDYyNywyLjA0NjI3LDAsMCwxLDYwLjkyODEsNjIuNjk3YTEuOTQ2LDEuOTQ2LDAsMCwxLDEuNDQ1OTEuNjA1ODkiLz48L3N2Zz4=
+    mediatype: image/svg+xml
+  name: nginx-ingress-operator
+  schema: olm.package
+# V2 Channel (legacy versions - no upgrade path to v3)
+- entries:
+  - name: nginx-ingress-operator.v2.0.2
+  - name: nginx-ingress-operator.v2.1.2
+    replaces: nginx-ingress-operator.v2.0.2
+  - name: nginx-ingress-operator.v2.2.2
+    replaces: nginx-ingress-operator.v2.1.2
+  - name: nginx-ingress-operator.v2.3.2
+    replaces: nginx-ingress-operator.v2.2.2
+  - name: nginx-ingress-operator.v2.4.2
+    replaces: nginx-ingress-operator.v2.3.2
+  name: v2
+  package: nginx-ingress-operator
+  schema: olm.channel
+# V3 Channel (current major version)
+- entries:
+  - name: nginx-ingress-operator.v3.0.1
+  - name: nginx-ingress-operator.v3.1.0
+    replaces: nginx-ingress-operator.v3.0.1
+  - name: nginx-ingress-operator.v3.2.3
+    replaces: nginx-ingress-operator.v3.1.0
+  - name: nginx-ingress-operator.v3.3.0
+    replaces: nginx-ingress-operator.v3.2.3
+  name: v3
+  package: nginx-ingress-operator
+  schema: olm.channel
+# Bundle definitions with SHA digests
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b03e44df87f00d12d9304cc26445fd8298320900f270e2039ce45406b2964b6a
+  name: nginx-ingress-operator.v2.0.2
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b099afeb277b71f4135a515d67fa38406c9341f9686dad1f544b9657ca523bc8
+  name: nginx-ingress-operator.v2.1.2
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:40715109be1c5dc236f52e64b895eb558271cdd590980bccb4c3cc040a7bda66
+  name: nginx-ingress-operator.v2.2.2
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:2ca75c3622b9aa3207a3805f122e6b96db202a8b48699dbbb9aeb43968927a5c
+  name: nginx-ingress-operator.v2.3.2
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4a4a502ec21d3e25438721eb93814cd2d31be87f523f658c884c5380022b272c
+  name: nginx-ingress-operator.v2.4.2
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4b537db5d06a6d7375d7fb2eb1057f6383194717d05146799733b9e23e9030a5
+  name: nginx-ingress-operator.v3.0.1
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:8fc0b42d4da0f5da324fd6be45dcbedf19f5ff863b2e06584f62ae517e0b56a4
+  name: nginx-ingress-operator.v3.1.0
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b84966344448444ac5bfa27569eaa2c52242ac3e69352ee7e2084d9126abb1d4
+  name: nginx-ingress-operator.v3.2.3
+  schema: olm.bundle
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4e032549f2c36c5a660994b5ec460ef214bb875a53f6f7e9b814d57049683a7a
+  name: nginx-ingress-operator.v3.3.0
+  schema: olm.bundle
+schema: olm.template.basic

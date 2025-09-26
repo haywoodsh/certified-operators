@@ -1,0 +1,2740 @@
+---
+defaultChannel: v3
+icon:
+  base64data: PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2My4zNiA3My40NCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwMDk2Mzk7fS5jbHMtMntmaWxsOiNmZmY7fS5jbHMtM3tmaWxsOiM5OTk7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5OR0lOWC1oZXgtc291cmNlLVJHQi0wMjwvdGl0bGU+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNLjUwMjcyLDU0LjcyMWEzLjYzNywzLjYzNywwLDAsMCwxLjM2NjQxLDEuMzU1OTNMMjkuODIxOTIsNzIuMjE1NDlsLjAwMDg3LS4wMDA4N2EzLjY2NzkzLDMuNjY3OTMsMCwwLDAsMy43MTUyOSwwTDYxLjQ5MTc1LDU2LjA3NjA2YTMuNjY1NjgsMy42NjU2OCwwLDAsMCwxLjg1Njc3LTMuMjE2MTlWMjAuNTgyNzVsLS4wMDA4Ny0uMDAwODdBMy42NjY4NSwzLjY2Njg1LDAsMCwwLDYxLjQ5LDE3LjM2NDgxTDMzLjUzNjM0LDEuMjI2MjVWMS4yMjUzOGEzLjY2MzEzLDMuNjYzMTMsMCwwLDAtMy43MTI2OCwwdi4wMDA4N0wxLjg3MDg3LDE3LjM2NDgxQTMuNjY1MywzLjY2NTMsMCwwLDAsLjAxMjM1LDIwLjU4MTg4bC0uMDAwODcuMDAwODdWNTIuODU5ODdBMy42NDQyNiwzLjY0NDI2LDAsMCwwLC41MDE4NSw1NC43MjEiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0yMi43MzAxNSw0OS4wMDhhMy41OTQ4OCwzLjU5NDg4LDAsMCwxLTcuMTg5NzYsMGwuMDAwODguMDAwODguMDAzNDktMjQuNjc3MjdjMC0xLjkxMTc0LDEuNjg5MjQtMy40OTI3OSw0LjA4MTc1LTMuNDkyNzlhNi4zOTI4Miw2LjM5MjgyLDAsMCwxLDQuOTAwMjEsMi4xOTFMMjUuNjEzLDI0LjMyOTg5LDQwLjYzMTI0LDQyLjMwMjUzVjI0LjQzMkg0MC42Mjk1YTMuNTk0ODgsMy41OTQ4OCwwLDAsMSw3LjE4OTc1LDBoLS4wMDA4N2wtLjAwMzQ5LDI0LjY3NTUyYzAsMS45MTE3NS0xLjY5MDExLDMuNDkyNzktNC4wODE3NSwzLjQ5Mjc5YTYuMzg4NTcsNi4zODg1NywwLDAsMS00LjkwMDIxLTIuMTkxTDIyLjcyODQsMzEuMTM2NTlWNDkuMDA4OVoiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik01OS45NzQ3OCw2Ni4wMzQxaC40NTkzNFY2NS4wMTFoLjM2MzM1YTEuMDM2NzQsMS4wMzY3NCwwLDAsMSwuNTEwMzcuMDg1MjIuNjM5MTcuNjM5MTcsMCwwLDEsLjI0MjU1LjU5NTEzdi4yMDk3NmwuMDEwMjkuMDc4MmEuMTU3ODEuMTU3ODEsMCwwLDEsLjAwNy4wMzI3OGMuMDAyMzQuMDEyNjQuMDAzMjguMDE2MzguMDEwMy4wMjJoLjQyNTYzbC0uMDE1NDYtLjAyOWEuMjk4NjMuMjk4NjMsMCwwLDEtLjAyMDYtLjEzM2MtLjAwNjA5LS4wNzM1MS0uMDA2MDktLjEzNjI1LS4wMDYwOS0uMTk0MzF2LS4xOTM4NWEuNzQxOTQuNzQxOTQsMCwwLDAtLjE0MjM0LS40MDU0OS42NjEyOS42NjEyOSwwLDAsMC0uNDUzMjUtLjI1NDcyLDEuMTE4ODQsMS4xMTg4NCwwLDAsMCwuMzc3ODctLjEyMjY4LjU2NjczLjU2NjczLDAsMCwwLC4yNTM3OC0uNTE1MDUuNjQwMDguNjQwMDgsMCwwLDAtLjQwMTc0LS42NjA2OCwxLjk5OTA2LDEuOTk5MDYsMCwwLDAtLjcxMjE5LS4wOTMxOGgtLjkwODg0Wm0xLjMwNjM3LTEuNDAyODJhMS4xODgyLDEuMTg4MiwwLDAsMS0uNDM2ODYuMDU4MDZoLS40MTAxN1Y2My43NDIxaC4zOTE0NGExLjE1NTUsMS4xNTU1LDAsMCwxLC41NTIuMTAxNjEuMzk0MTMuMzk0MTMsMCwwLDEsLjE3Mjc4LjM3OTc0LjQwMDg3LjQwMDg3LDAsMCwxLS4yNjkyNC40MDc4M20xLjMzNC0xLjU2MzlhMi4zMDc5MiwyLjMwNzkyLDAsMCwwLTEuNjg3LS42ODk3MSwyLjM3MywyLjM3MywwLDAsMCwwLDQuNzQ2LDIuMzc3MjQsMi4zNzcyNCwwLDAsMCwxLjY4Ny00LjA1NjNtLS4yNDExNC4yMzU1MmExLjk0MzU5LDEuOTQzNTksMCwwLDEsLjU5NTU5LDEuNDQzNTYsMi4wMzkyMiwyLjAzOTIyLDAsMCwxLTMuNDg1NTIsMS40NTA1OSwyLjAxMzExLDIuMDEzMTEsMCwwLDEtLjU5Mjc5LTEuNDUwNTlBMi4wNDYyNywyLjA0NjI3LDAsMCwxLDYwLjkyODEsNjIuNjk3YTEuOTQ2LDEuOTQ2LDAsMCwxLDEuNDQ1OTEuNjA1ODkiLz48L3N2Zz4=
+  mediatype: image/svg+xml
+name: nginx-ingress-operator
+schema: olm.package
+---
+entries:
+- name: nginx-ingress-operator.v2.0.2
+- name: nginx-ingress-operator.v2.1.2
+  replaces: nginx-ingress-operator.v2.0.2
+- name: nginx-ingress-operator.v2.2.2
+  replaces: nginx-ingress-operator.v2.1.2
+- name: nginx-ingress-operator.v2.3.2
+  replaces: nginx-ingress-operator.v2.2.2
+- name: nginx-ingress-operator.v2.4.2
+  replaces: nginx-ingress-operator.v2.3.2
+name: v2
+package: nginx-ingress-operator
+schema: olm.channel
+---
+entries:
+- name: nginx-ingress-operator.v3.0.1
+- name: nginx-ingress-operator.v3.1.0
+  replaces: nginx-ingress-operator.v3.0.1
+- name: nginx-ingress-operator.v3.2.3
+  replaces: nginx-ingress-operator.v3.1.0
+- name: nginx-ingress-operator.v3.3.0
+  replaces: nginx-ingress-operator.v3.2.3
+name: v3
+package: nginx-ingress-operator
+schema: olm.channel
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b03e44df87f00d12d9304cc26445fd8298320900f270e2039ce45406b2964b6a
+name: nginx-ingress-operator.v2.0.2
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 2.0.2
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultTLS": {
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enablePreviewPolicies": false,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "3.3.2-ubi"
+                },
+                "includeYear": false,
+                "ingressClass": "nginx",
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logLevel": 1,
+                "minReadySeconds": 0,
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": ""
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "service": {
+                  "annotations": {},
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": ""
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [],
+                  "labels": {},
+                  "selectorMatchLabels": {}
+                },
+                "setAsDefaultIngress": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "secret": null
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": ""
+              },
+              "rbac": {
+                "create": true
+              },
+              "readOnlyRootFilesystem": false,
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:ed0730802dffaa20ec9e1e3b79389ed73f37e064ac951733d384b21aae92de7b
+      createdAt: "2023-11-02T00:18:19Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.32.0
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.22.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: gcr.io/kubebuilder/kube-rbac-proxy@sha256:d4883d7c622683b3319b5e6b3a7edfbf2594c18060131a8bf64504805f875522
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:ed0730802dffaa20ec9e1e3b79389ed73f37e064ac951733d384b21aae92de7b
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:ed0730802dffaa20ec9e1e3b79389ed73f37e064ac951733d384b21aae92de7b
+  name: nginx-ingress-operator-ed0730802dffaa20ec9e1e3b79389ed73f37e064ac951733d384b21aae92de7b-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b03e44df87f00d12d9304cc26445fd8298320900f270e2039ce45406b2964b6a
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b099afeb277b71f4135a515d67fa38406c9341f9686dad1f544b9657ca523bc8
+name: nginx-ingress-operator.v2.1.2
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 2.1.2
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "3.4.3-ubi"
+                },
+                "includeYear": false,
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logLevel": 1,
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:27749c09430f1f00381ef86389dfe2a28839968835bb42932b66e7c4476bbabf
+      createdAt: "2024-02-19T16:35:10Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.33.0
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.22.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: gcr.io/kubebuilder/kube-rbac-proxy@sha256:d4883d7c622683b3319b5e6b3a7edfbf2594c18060131a8bf64504805f875522
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:27749c09430f1f00381ef86389dfe2a28839968835bb42932b66e7c4476bbabf
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:27749c09430f1f00381ef86389dfe2a28839968835bb42932b66e7c4476bbabf
+  name: nginx-ingress-operator-27749c09430f1f00381ef86389dfe2a28839968835bb42932b66e7c4476bbabf-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b099afeb277b71f4135a515d67fa38406c9341f9686dad1f544b9657ca523bc8
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:40715109be1c5dc236f52e64b895eb558271cdd590980bccb4c3cc040a7bda66
+name: nginx-ingress-operator.v2.2.2
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 2.2.2
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "3.5.2-ubi"
+                },
+                "includeYear": false,
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logLevel": 1,
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:d2e0212cd25d995c15f888fe94acc1186fcbb2d6d39f8262fd32acf77263c448
+      createdAt: "2024-05-31T15:25:46Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.34.2
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.23.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: gcr.io/kubebuilder/kube-rbac-proxy@sha256:d4883d7c622683b3319b5e6b3a7edfbf2594c18060131a8bf64504805f875522
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:d2e0212cd25d995c15f888fe94acc1186fcbb2d6d39f8262fd32acf77263c448
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:d2e0212cd25d995c15f888fe94acc1186fcbb2d6d39f8262fd32acf77263c448
+  name: nginx-ingress-operator-d2e0212cd25d995c15f888fe94acc1186fcbb2d6d39f8262fd32acf77263c448-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:40715109be1c5dc236f52e64b895eb558271cdd590980bccb4c3cc040a7bda66
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:2ca75c3622b9aa3207a3805f122e6b96db202a8b48699dbbb9aeb43968927a5c
+name: nginx-ingress-operator.v2.3.2
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 2.3.2
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "3.6.2-ubi"
+                },
+                "includeYear": false,
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logLevel": 1,
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:05650dec117e0d6df4fc631f9144e821b9df9ed552f00459734761526aa1968a
+      createdAt: "2024-08-19T14:00:41Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.34.2
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:05650dec117e0d6df4fc631f9144e821b9df9ed552f00459734761526aa1968a
+  name: nginx-ingress-operator-05650dec117e0d6df4fc631f9144e821b9df9ed552f00459734761526aa1968a-annotation
+- image: quay.io/nginx/nginx-ingress-operator@sha256:05650dec117e0d6df4fc631f9144e821b9df9ed552f00459734761526aa1968a
+  name: manager
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:2ca75c3622b9aa3207a3805f122e6b96db202a8b48699dbbb9aeb43968927a5c
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4a4a502ec21d3e25438721eb93814cd2d31be87f523f658c884c5380022b272c
+name: nginx-ingress-operator.v2.4.2
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 2.4.2
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "3.7.2-ubi"
+                },
+                "includeYear": false,
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logLevel": 1,
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:94ff065a9626ab4d67d4c47f4a52e039f57d863a1e26b60ede42c8d2d262c21b
+      createdAt: "2024-11-25T17:56:54Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.38.0
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:94ff065a9626ab4d67d4c47f4a52e039f57d863a1e26b60ede42c8d2d262c21b
+  name: nginx-ingress-operator-94ff065a9626ab4d67d4c47f4a52e039f57d863a1e26b60ede42c8d2d262c21b-annotation
+- image: quay.io/nginx/nginx-ingress-operator@sha256:94ff065a9626ab4d67d4c47f4a52e039f57d863a1e26b60ede42c8d2d262c21b
+  name: manager
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4a4a502ec21d3e25438721eb93814cd2d31be87f523f658c884c5380022b272c
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4b537db5d06a6d7375d7fb2eb1057f6383194717d05146799733b9e23e9030a5
+name: nginx-ingress-operator.v3.0.1
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 3.0.1
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "4.0.1-ubi"
+                },
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logFormat": "glog",
+                "logLevel": "info",
+                "mgmt": {
+                  "licenseTokenSecretName": "license-token"
+                },
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:55b21a5d302fef3647faad822c595353aaabb12efa6dba2817710abc54291827
+      createdAt: "2025-02-07T13:20:44Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.39.1
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:55b21a5d302fef3647faad822c595353aaabb12efa6dba2817710abc54291827
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:55b21a5d302fef3647faad822c595353aaabb12efa6dba2817710abc54291827
+  name: nginx-ingress-operator-55b21a5d302fef3647faad822c595353aaabb12efa6dba2817710abc54291827-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4b537db5d06a6d7375d7fb2eb1057f6383194717d05146799733b9e23e9030a5
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:8fc0b42d4da0f5da324fd6be45dcbedf19f5ff863b2e06584f62ae517e0b56a4
+name: nginx-ingress-operator.v3.1.0
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 3.1.0
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "5.0.0-ubi"
+                },
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logFormat": "glog",
+                "logLevel": "info",
+                "mgmt": {
+                  "licenseTokenSecretName": "license-token"
+                },
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:24653a1fc4c946965db2a05352e5c4f389d768b12ba375fb48875e304114adf5
+      createdAt: "2025-04-16T15:09:51Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.39.2
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginxinc/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+      operatorframework.io/arch.ppc64le: supported
+      operatorframework.io/arch.s390x: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginxinc/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:24653a1fc4c946965db2a05352e5c4f389d768b12ba375fb48875e304114adf5
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:24653a1fc4c946965db2a05352e5c4f389d768b12ba375fb48875e304114adf5
+  name: nginx-ingress-operator-24653a1fc4c946965db2a05352e5c4f389d768b12ba375fb48875e304114adf5-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:8fc0b42d4da0f5da324fd6be45dcbedf19f5ff863b2e06584f62ae517e0b56a4
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b84966344448444ac5bfa27569eaa2c52242ac3e69352ee7e2084d9126abb1d4
+name: nginx-ingress-operator.v3.2.3
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 3.2.3
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "5.1.1-ubi"
+                },
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logFormat": "glog",
+                "logLevel": "info",
+                "mgmt": {
+                  "licenseTokenSecretName": "license-token"
+                },
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:b1c96fa9d1c9340f78f53de23228fafbb64c3a5a954aca0e4b0df1c6d532b9a7
+      createdAt: "2025-08-15T14:27:56Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.40.0
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginx/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginx/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:b1c96fa9d1c9340f78f53de23228fafbb64c3a5a954aca0e4b0df1c6d532b9a7
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:b1c96fa9d1c9340f78f53de23228fafbb64c3a5a954aca0e4b0df1c6d532b9a7
+  name: nginx-ingress-operator-b1c96fa9d1c9340f78f53de23228fafbb64c3a5a954aca0e4b0df1c6d532b9a7-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:b84966344448444ac5bfa27569eaa2c52242ac3e69352ee7e2084d9126abb1d4
+  name: ""
+schema: olm.bundle
+---
+image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4e032549f2c36c5a660994b5ec460ef214bb875a53f6f7e9b814d57049683a7a
+name: nginx-ingress-operator.v3.3.0
+package: nginx-ingress-operator
+properties:
+- type: olm.gvk
+  value:
+    group: charts.nginx.org
+    kind: NginxIngress
+    version: v1alpha1
+- type: olm.package
+  value:
+    packageName: nginx-ingress-operator
+    version: 3.3.0
+- type: olm.csv.metadata
+  value:
+    annotations:
+      alm-examples: |-
+        [
+          {
+            "apiVersion": "charts.nginx.org/v1alpha1",
+            "kind": "NginxIngress",
+            "metadata": {
+              "name": "nginxingress-sample"
+            },
+            "spec": {
+              "controller": {
+                "affinity": {},
+                "annotations": {},
+                "appprotect": {
+                  "enable": false
+                },
+                "appprotectdos": {
+                  "debug": false,
+                  "enable": false,
+                  "maxDaemons": 0,
+                  "maxWorkers": 0,
+                  "memory": 0
+                },
+                "autoscaling": {
+                  "annotations": {},
+                  "behavior": {},
+                  "enabled": false,
+                  "maxReplicas": 3,
+                  "minReplicas": 1,
+                  "targetCPUUtilizationPercentage": 50,
+                  "targetMemoryUtilizationPercentage": 50
+                },
+                "config": {
+                  "annotations": {},
+                  "entries": {}
+                },
+                "containerPort": {
+                  "http": 80,
+                  "https": 443
+                },
+                "customConfigMap": "",
+                "customPorts": [],
+                "defaultHTTPListenerPort": 80,
+                "defaultHTTPSListenerPort": 443,
+                "defaultTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                },
+                "disableIPV6": false,
+                "dnsPolicy": "ClusterFirst",
+                "enableCertManager": false,
+                "enableCustomResources": true,
+                "enableExternalDNS": false,
+                "enableLatencyMetrics": false,
+                "enableOIDC": false,
+                "enableSSLDynamicReload": true,
+                "enableSnippets": false,
+                "enableTLSPassthrough": false,
+                "env": [],
+                "extraContainers": [],
+                "globalConfiguration": {
+                  "create": false,
+                  "spec": {}
+                },
+                "healthStatus": false,
+                "healthStatusURI": "/nginx-health",
+                "hostNetwork": false,
+                "hostPort": {
+                  "enable": false,
+                  "http": 80,
+                  "https": 443
+                },
+                "image": {
+                  "pullPolicy": "IfNotPresent",
+                  "repository": "nginx/nginx-ingress",
+                  "tag": "5.2.0-ubi"
+                },
+                "ingressClass": {
+                  "create": true,
+                  "name": "nginx",
+                  "setAsDefaultIngress": false
+                },
+                "initContainerResources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "initContainers": [],
+                "kind": "deployment",
+                "lifecycle": {},
+                "logFormat": "glog",
+                "logLevel": "info",
+                "mgmt": {
+                  "licenseTokenSecretName": "license-token"
+                },
+                "minReadySeconds": 0,
+                "name": "controller",
+                "nginxDebug": false,
+                "nginxReloadTimeout": 60000,
+                "nginxStatus": {
+                  "allowCidrs": "127.0.0.1",
+                  "enable": true,
+                  "port": 8080
+                },
+                "nginxplus": false,
+                "pod": {
+                  "annotations": {},
+                  "extraLabels": {}
+                },
+                "podDisruptionBudget": {
+                  "annotations": {},
+                  "enabled": false
+                },
+                "readOnlyRootFilesystem": false,
+                "readyStatus": {
+                  "enable": true,
+                  "initialDelaySeconds": 0,
+                  "port": 8081
+                },
+                "replicaCount": 1,
+                "reportIngressStatus": {
+                  "annotations": {},
+                  "enable": true,
+                  "enableLeaderElection": true,
+                  "ingressLink": "",
+                  "leaderElectionLockName": "nginx-ingress-leader"
+                },
+                "resources": {
+                  "requests": {
+                    "cpu": "100m",
+                    "memory": "128Mi"
+                  }
+                },
+                "selectorLabels": {},
+                "service": {
+                  "annotations": {},
+                  "clusterIP": "",
+                  "create": true,
+                  "customPorts": [],
+                  "externalIPs": [],
+                  "externalTrafficPolicy": "Local",
+                  "extraLabels": {},
+                  "httpPort": {
+                    "enable": true,
+                    "port": 80,
+                    "targetPort": 80
+                  },
+                  "httpsPort": {
+                    "enable": true,
+                    "port": 443,
+                    "targetPort": 443
+                  },
+                  "loadBalancerIP": "",
+                  "loadBalancerSourceRanges": [],
+                  "type": "LoadBalancer"
+                },
+                "serviceAccount": {
+                  "annotations": {},
+                  "imagePullSecretName": "",
+                  "imagePullSecretsNames": []
+                },
+                "shareProcessNamespace": false,
+                "strategy": {},
+                "terminationGracePeriodSeconds": 30,
+                "tlsPassthroughPort": 443,
+                "tolerations": [],
+                "volumeMounts": [],
+                "volumes": [],
+                "watchNamespace": "",
+                "watchNamespaceLabel": "",
+                "watchSecretNamespace": "",
+                "wildcardTLS": {
+                  "cert": "",
+                  "key": "",
+                  "secret": ""
+                }
+              },
+              "nginxServiceMesh": {
+                "enable": false,
+                "enableEgress": false
+              },
+              "prometheus": {
+                "create": true,
+                "port": 9113,
+                "scheme": "http",
+                "secret": "",
+                "service": {
+                  "create": false,
+                  "labels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                },
+                "serviceMonitor": {
+                  "create": false,
+                  "endpoints": [
+                    {
+                      "port": "prometheus"
+                    }
+                  ],
+                  "labels": {},
+                  "selectorMatchLabels": {
+                    "service": "nginx-ingress-prometheus-service"
+                  }
+                }
+              },
+              "rbac": {
+                "create": true
+              },
+              "serviceInsight": {
+                "create": false,
+                "port": 9114,
+                "scheme": "http",
+                "secret": ""
+              }
+            }
+          }
+        ]
+      capabilities: Basic Install
+      categories: Monitoring, Networking
+      certified: "true"
+      containerImage: quay.io/nginx/nginx-ingress-operator@sha256:fb372438634b4a667218e725091bd448a253e7a9c40e7dda1044a318780d995f
+      createdAt: "2025-09-15T16:08:18Z"
+      description: The NGINX Ingress Operator is a Kubernetes/OpenShift component
+        which deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+      features.operators.openshift.io/cnf: "false"
+      features.operators.openshift.io/cni: "false"
+      features.operators.openshift.io/csi: "false"
+      features.operators.openshift.io/disconnected: "false"
+      features.operators.openshift.io/fips-compliant: "false"
+      features.operators.openshift.io/proxy-aware: "false"
+      features.operators.openshift.io/tls-profiles: "false"
+      features.operators.openshift.io/token-auth-aws: "false"
+      features.operators.openshift.io/token-auth-azure: "false"
+      features.operators.openshift.io/token-auth-gcp: "false"
+      operatorframework.io/suggested-namespace: nginx-ingress
+      operators.operatorframework.io/builder: operator-sdk-v1.29.0
+      operators.operatorframework.io/project_layout: helm.sdk.operatorframework.io/v1
+      repository: https://github.com/nginx/nginx-ingress-helm-operator
+      support: NGINX Inc.
+    apiServiceDefinitions: {}
+    crdDescriptions:
+      owned:
+      - description: The `NginxIngress` Custom Resource is the definition of a deployment
+          of the Ingress Controller.
+        displayName: Nginx Ingress Controller
+        kind: NginxIngress
+        name: nginxingresses.charts.nginx.org
+        version: v1alpha1
+    description: The NGINX Ingress Operator is a Kubernetes/OpenShift component which
+      deploys and manages one or more NGINX/NGINX Plus Ingress Controllers
+    displayName: Nginx Ingress Operator
+    installModes:
+    - supported: true
+      type: OwnNamespace
+    - supported: true
+      type: SingleNamespace
+    - supported: true
+      type: MultiNamespace
+    - supported: true
+      type: AllNamespaces
+    keywords:
+    - nginx
+    - ingress-controller
+    - ingress
+    - controller
+    - kubernetes
+    - openshift
+    labels:
+      operatorframework.io/arch.amd64: supported
+      operatorframework.io/arch.arm64: supported
+    links:
+    - name: Nginx Ingress Operator
+      url: https://github.com/nginx/nginx-ingress-helm-operator
+    maintainers:
+    - email: kubernetes@nginx.com
+      name: NGINX Inc
+    maturity: alpha
+    minKubeVersion: 1.26.0
+    provider:
+      name: NGINX Inc
+relatedImages:
+- image: quay.io/brancz/kube-rbac-proxy@sha256:754ab2a723c8fc7ea8e09ae1224f8af5be91849b8b2f2a3735c6237f1c534187
+  name: kube-rbac-proxy
+- image: quay.io/nginx/nginx-ingress-operator@sha256:fb372438634b4a667218e725091bd448a253e7a9c40e7dda1044a318780d995f
+  name: manager
+- image: quay.io/nginx/nginx-ingress-operator@sha256:fb372438634b4a667218e725091bd448a253e7a9c40e7dda1044a318780d995f
+  name: nginx-ingress-operator-fb372438634b4a667218e725091bd448a253e7a9c40e7dda1044a318780d995f-annotation
+- image: registry.connect.redhat.com/nginx/nginx-ingress-operator-bundle@sha256:4e032549f2c36c5a660994b5ec460ef214bb875a53f6f7e9b814d57049683a7a
+  name: ""
+schema: olm.bundle
